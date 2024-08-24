@@ -59,7 +59,7 @@ export function constructMetadata({
       creator: '@joshtriedcoding',
     },
     icons,
-    metadataBase: new URL('https://doggodesigns.up.railway.app'),
+    metadataBase: new URL('https://doggodesignmarketplace-production.up.railway.app/'),
     ...(noIndex && {
       robots: {
         index: false,
