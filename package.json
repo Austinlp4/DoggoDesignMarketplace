@@ -1,10 +1,10 @@
 {
-  "name": "digitalhippo",
+  "name": "doggodesigns",
   "version": "0.1.0",
   "private": true,
   "main": "dist/server.js",
   "scripts": {
-    "dev": "cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts nodemon",
+    "dev": "cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts nodemon --exec \"npx ts-node\" --project tsconfig.server.json src/server.ts",
     "generate:types": "cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts payload generate:types",
     "build:payload": "cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts payload build",
     "build:server": "tsc --project tsconfig.server.json",
@@ -70,6 +70,7 @@
     "nodemon": "^3.0.1",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
+    "ts-node": "^10.9.2",
     "typescript": "^5"
   }
 }

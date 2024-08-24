@@ -47,7 +47,7 @@ export const getPayloadClient = async ({
       email: {
         transport: transporter,
         fromAddress: 'hello@joshtriedcoding.com',
-        fromName: 'DigitalHippo',
+        fromName: 'Doggo Designs',
       },
       secret: process.env.PAYLOAD_SECRET,
       local: initOptions?.express ? false : true,
