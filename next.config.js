@@ -8,7 +8,7 @@ const nextConfig = {
 			},
 			{
 				protocol: "https",
-				hostname: "doggodesignmarketplace-production.up.railway.app",
+				hostname: "www.doggo-designs.com",
 			},
 		],
 	},
